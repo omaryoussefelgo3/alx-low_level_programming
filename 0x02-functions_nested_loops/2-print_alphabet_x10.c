@@ -1,4 +1,4 @@
-#include "main.h"
+#include"main.h"
 
 /**
  * print_alphabet_x10 - to repeat from a-z x10
@@ -7,14 +7,13 @@
 
 void print_alphabet_x10(void)
 {
-	int i;
-	int j;
+	int i, j;
 
-	for (i = 1 ; i <= 10; i++)
+	for (i = 0 ; i <= 9; i++)
 	{
 		for (j = 'a'; j <= 'z'; j++)
 		{
-			_putchar(i);
+			_putchar(j);
 		}
 		_putchar('\n');
 	}
