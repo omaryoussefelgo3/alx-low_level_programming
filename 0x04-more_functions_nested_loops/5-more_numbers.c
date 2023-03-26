@@ -8,14 +8,14 @@
 
 void more_numbers(void)
 {
-	int row , count , num;
+	int row, count, num;
 
 	for (row = 1; row < 11; row++)
 	{
 		for (count = 1; count <= 14; count++)
 		{
 			num = count;
-			if ( count > 9)
+			if (count > 9)
 			{
 				_putchar(49);
 				num = count % 10;
