@@ -2,11 +2,12 @@
 
 /**
  * mul - a function that multiplies two integers
- * @a,@b: 2 integers
+ * @a: first input
+ * @b: 2nd input
  * Return: The result of 2 multiplies
  */
 
 int mul(int a, int b)
 {
-	return a * b;
+	return (a * b);
 }
